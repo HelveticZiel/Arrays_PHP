@@ -20,7 +20,7 @@ foreach ($lista as $x => $y) {
 foreach($lista as $x => $y){
 
     echo  $x + $y ; 
-
+/* AAAA */
 }
 
 
