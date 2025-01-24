@@ -23,7 +23,15 @@ foreach($lista as $x => $y){
 /* AAAA */
 }
 
-/* 2º prueba de commit*/ 
+/* 2º prueba de commit*/  
+
+// 3) Modifica la edad del primer array a 24. Vuelve a mostrar toda su información. 
+
+$lista["edad"] = 24;
+foreach ($lista as $x => $y) {
+  echo "Dato". $count. "º:". $y . "<br>";
+  $count ++;
+}
 
 
 ?>
